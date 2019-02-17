@@ -14,5 +14,9 @@ describe Raindrops do
     it "prints Plong for numbers with a factor of 5" do
       expect{ raindrops.converter(5)}.to output('Plang').to_stdout
     end
+
+    it "prints PlingPlang for numbers with a factor of 3 and 5" do
+      expect{raindrops.converter(15)}.to output('PlingPlang').to_stdout
+    end
   end
 end
