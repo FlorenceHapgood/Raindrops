@@ -28,6 +28,5 @@ describe Raindrops do
     it "prints the number as a string if it doesn't have a factor of 3, 5 or 7" do
       expect { raindrops.converter(34) }.to output('34').to_stdout
     end
-
   end
 end
