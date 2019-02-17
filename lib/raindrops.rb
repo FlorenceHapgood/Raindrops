@@ -5,6 +5,12 @@ class Raindrops
     print 'Pling' if (number_input % 3).zero?
     print 'Plang' if (number_input % 5).zero?
     print 'Plong' if (number_input % 7).zero?
+    non_multiples(number_input)
+  end
+
+  private
+
+  def non_multiples(number_input)
     print number_input.to_s if !(number_input % 3).zero? && !(number_input % 5).zero? && !(number_input % 7).zero?
   end
 end
