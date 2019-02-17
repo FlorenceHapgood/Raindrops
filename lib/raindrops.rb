@@ -1,16 +1,16 @@
 # frozen_string_literal: true
 
 class Raindrops
-  def converter(number_input)
-    print 'Pling' if (number_input % 3).zero?
-    print 'Plang' if (number_input % 5).zero?
-    print 'Plong' if (number_input % 7).zero?
-    non_multiples(number_input)
+  def converter(num)
+    print 'Pling' if (num % 3).zero?
+    print 'Plang' if (num % 5).zero?
+    print 'Plong' if (num % 7).zero?
+    non_multiples(num)
   end
 
   private
 
-  def non_multiples(number_input)
-    print number_input.to_s if !(number_input % 3).zero? && !(number_input % 5).zero? && !(number_input % 7).zero?
+  def non_multiples(num)
+    print num.to_s if !(num % 3).zero? && !(num % 5).zero? && !(num % 7).zero?
   end
 end
