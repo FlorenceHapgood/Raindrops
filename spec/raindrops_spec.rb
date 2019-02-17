@@ -9,10 +9,6 @@ describe Raindrops do
       expect { raindrops.converter(3) }.to output('Pling').to_stdout
     end
 
-    it "prints the number as a string if it's  not a factor of 3" do
-      expect { raindrops.converter(4) }.to output('4').to_stdout
-    end
-
     it 'prints Plong for numbers with a factor of 5' do
       expect { raindrops.converter(5) }.to output('Plang').to_stdout
     end
@@ -28,6 +24,10 @@ describe Raindrops do
     it 'prints PlingPlangPlong for numbers with a factor of 3, 5 and 7' do
       expect { raindrops.converter(105) }.to output('PlingPlangPlong').to_stdout
     end
-    
+
+    it "prints the number as a string if it doesn't have a factor of 3, 5 or 7" do
+      expect { raindrops.converter(34) }.to output('34').to_stdout
+    end
+
   end
 end
