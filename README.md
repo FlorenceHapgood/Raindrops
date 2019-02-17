@@ -13,7 +13,7 @@ $ raindrops = Raindrops.new
 $ raindrops.converter(any_number_you_choose)
 ```
 
-![screen shot 2019-02-17 at 12 53 02](https://user-images.githubusercontent.com/42243785/52913184-61a13380-32b3-11e9-8684-8539913fc27b.png)
+![screen shot 2019-02-17 at 12 59 19](https://user-images.githubusercontent.com/42243785/52913220-e9873d80-32b3-11e9-9b2b-d816a688bea7.png)
 
 ## Tests
 
