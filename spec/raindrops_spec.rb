@@ -10,5 +10,9 @@ describe Raindrops do
     it "prints the number as a string if it's  not a factor of 3" do
       expect { raindrops.converter(4)}.to output('4').to_stdout
     end
+
+    it "prints Plong for numbers with a factor of 5" do
+      expect{ raindrops.converter(5)}.to output('Plang').to_stdout
+    end
   end
 end
