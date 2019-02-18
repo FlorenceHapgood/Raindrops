@@ -7,6 +7,11 @@ A Tech Test for Deloitte.
 From the project folder:
 
 ```
+$ bundle install
+```
+Then:
+
+```
 $ irb
 $ require './lib/raindrops.rb'
 $ raindrops = Raindrops.new
