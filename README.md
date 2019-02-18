@@ -1,6 +1,4 @@
-# Raindrops
-
-A Tech Test for Deloitte. 
+# Tech Test
 
 ## To run
 
